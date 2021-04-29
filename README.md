@@ -1,2 +1,2 @@
-# 8values.github.io
-The 8values Political Quiz measures individuals' political values, including Equality, Nation, Liberty, Tradition, Markets, World, Authority, and Progress.
+# yanvalues
+The YanValues Political Quiz measures individuals' yandere-related political values, with regards to pornography, friendship, fidelity, gender equality, work, religion, and opinions on yandere as a whole.
