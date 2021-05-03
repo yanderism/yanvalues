@@ -2,469 +2,444 @@ ideologies = [
     {
         "name": "Anarcho-Communism",
         "stats": {
-            "econ": 100,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 90
-        }
-    },
-    {
-        "name": "Libertarian Communism",
-        "stats": {
-            "econ": 100,
-            "dipl": 70,
-            "govt": 80,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Trotskyism",
-        "stats": {
-            "econ": 100,
-            "dipl": 100,
-            "govt": 60,
-            "scty": 80
+            "fidelity": 20,
+            "antiporn": 0,
+            "isolation": 50,
+            "gender": 50,
+            "labor": 100,
+            "automation": 75,
+            "yanderism": 50,
+            "religion": 50
         }
     },
     {
         "name": "Marxism",
         "stats": {
-            "econ": 100,
-            "dipl": 70,
-            "govt": 40,
-            "scty": 80
-        }
-    },
-    {
-        "name": "De Leonism",
-        "stats": {
-            "econ": 100,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Leninism",
-        "stats": {
-            "econ": 100,
-            "dipl": 40,
-            "govt": 20,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Stalinism/Maoism",
-        "stats": {
-            "econ": 100,
-            "dipl": 20,
-            "govt": 0,
-            "scty": 60
+            "fidelity": 40,
+            "antiporn": 80,
+            "isolation": 50,
+            "gender": 50,
+            "labor": 100,
+            "automation": 50,
+            "yanderism": 25,
+            "religion": 0
         }
     },
     {
         "name": "Religious Communism",
         "stats": {
-            "econ": 100,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 30
+            "fidelity": 60,
+            "antiporn": 80,
+            "isolation": 50,
+            "gender": 50,
+            "labor": 100,
+            "automation": 85,
+            "yanderism": 66,
+            "religion": 100
         }
     },
     {
         "name": "State Socialism",
         "stats": {
-            "econ": 80,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Theocratic Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 20
+            "fidelity": 40,
+            "antiporn": 80,
+            "isolation": 50,
+            "gender": 50,
+            "labor": 85,
+            "automation": 85,
+            "yanderism": 25,
+            "religion": 0
         }
     },
     {
         "name": "Religious Socialism",
         "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 70,
-            "scty": 20
+            "fidelity": 80,
+            "antiporn": 80,
+            "isolation": 50,
+            "gender": 50,
+            "labor": 85,
+            "automation": 85,
+            "yanderism": 66,
+            "religion": 100
         }
     },
     {
         "name": "Democratic Socialism",
         "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Revolutionary Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 20,
-            "govt": 50,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Libertarian Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 80,
-            "govt": 80,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Anarcho-Syndicalism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Left-Wing Populism",
-        "stats": {
-            "econ": 60,
-            "dipl": 40,
-            "govt": 30,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Theocratic Distributism",
-        "stats": {
-            "econ": 60,
-            "dipl": 40,
-            "govt": 30,
-            "scty": 20
+            "fidelity": 40,
+            "antiporn": 30,
+            "isolation": 25,
+            "gender": 50,
+            "labor": 85,
+            "automation": 85,
+            "yanderism": 25,
+            "religion": 25
         }
     },
     {
         "name": "Distributism",
         "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Social Liberalism",
-        "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 80
-        }
-    },
-    {
-        "name": "Christian Democracy",
-        "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 50,
-            "scty": 30
-        }
-    },
-    {
-        "name": "Social Democracy",
-        "stats": {
-            "econ": 60,
-            "dipl": 70,
-            "govt": 60,
-            "scty": 80
+            "fidelity": 60,
+            "antiporn": 80,
+            "isolation": 50,
+            "gender": 50,
+            "labor": 66,
+            "automation": 50,
+            "yanderism": 66,
+            "religion": 85
         }
     },
     {
         "name": "Progressivism",
         "stats": {
-            "econ": 60,
-            "dipl": 80,
-            "govt": 60,
-            "scty": 100
-        }
-    },
-    {
-        "name": "Anarcho-Mutualism",
-        "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 70
-        }
-    },
-    {
-        "name": "National Totalitarianism",
-        "stats": {
-            "econ": 50,
-            "dipl": 20,
-            "govt": 0,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Global Totalitarianism",
-        "stats": {
-            "econ": 50,
-            "dipl": 80,
-            "govt": 0,
-            "scty": 50
+            "fidelity": 20,
+            "antiporn": 20,
+            "isolation": 0,
+            "gender": 75,
+            "labor": 75,
+            "automation": 85,
+            "yanderism": 0,
+            "religion": 25
         }
     },
     {
         "name": "Technocracy",
         "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 20,
-            "scty": 70
+            "fidelity": 50,
+            "antiporn": 50,
+            "isolation": 50,
+            "gender": 50,
+            "labor": 100,
+            "automation": 100,
+            "yanderism": 50,
+            "religion": 50
         }
     },
     {
-        "name": "Centrist",
+        "name": "Egoism",
         "stats": {
-            "econ": 50,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Liberalism",
-        "stats": {
-            "econ": 50,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Religious Anarchism",
-        "stats": {
-            "econ": 50,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Right-Wing Populism",
-        "stats": {
-            "econ": 40,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 30
-        }
-    },
-    {
-        "name": "Moderate Conservatism",
-        "stats": {
-            "econ": 40,
-            "dipl": 40,
-            "govt": 50,
-            "scty": 30
-        }
-    },
-    {
-        "name": "Reactionary",
-        "stats": {
-            "econ": 40,
-            "dipl": 40,
-            "govt": 40,
-            "scty": 10
-        }
-    },
-    {
-        "name": "Social Libertarianism",
-        "stats": {
-            "econ": 60,
-            "dipl": 70,
-            "govt": 80,
-            "scty": 70
-        }
-    },
-    {
-        "name": "Libertarianism",
-        "stats": {
-            "econ": 40,
-            "dipl": 60,
-            "govt": 80,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Anarcho-Egoism",
-        "stats": {
-            "econ": 40,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Nazism",
-        "stats": {
-            "econ": 40,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 5
-        }
-    },
-    {
-        "name": "Autocracy",
-        "stats": {
-            "econ": 50,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 50
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 50,
+            "labor": 0,
+            "automation": 75,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
         "name": "Fascism",
         "stats": {
-            "econ": 40,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
+            "fidelity": 80,
+            "antiporn": 80,
+            "isolation": 50,
+            "gender": 50,
+            "labor": 75,
+            "automation": 75,
+            "yanderism": 66,
+            "religion": 75
         }
     },
     {
-        "name": "Capitalist Fascism",
+        "name": "Reactionary Conservatism",
         "stats": {
-            "econ": 20,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
-        }
-    },
-    {
-        "name": "Conservatism",
-        "stats": {
-            "econ": 30,
-            "dipl": 40,
-            "govt": 40,
-            "scty": 20
+            "fidelity": 60,
+            "antiporn": 60,
+            "isolation": 50,
+            "gender": 20,
+            "labor": 50,
+            "automation": 50,
+            "yanderism": 66,
+            "religion": 75
         }
     },
     {
         "name": "Neo-Liberalism",
         "stats": {
-            "econ": 30,
-            "dipl": 30,
-            "govt": 50,
-            "scty": 60
+            "fidelity": 30,
+            "antiporn": 20,
+            "isolation": 0,
+            "gender": 50,
+            "labor": 0,
+            "automation": 75,
+            "yanderism": 0,
+            "religion": 25
         }
     },
     {
         "name": "Classical Liberalism",
         "stats": {
-            "econ": 30,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 80
+            "fidelity": 60,
+            "antiporn": 60,
+            "isolation": 50,
+            "gender": 25,
+            "labor": 33,
+            "automation": 50,
+            "yanderism", 50,
+            "religion", 75
         }
     },
     {
         "name": "Authoritarian Capitalism",
         "stats": {
-            "econ": 20,
-            "dipl": 30,
-            "govt": 20,
-            "scty": 40
+            "fidelity": 50,
+            "antiporn": 40,
+            "isolation": 25,
+            "gender": 50,
+            "labor": 60,
+            "automation": 50,
+            "yanderism": 50,
+            "religion": 55
         }
     },
     {
         "name": "State Capitalism",
         "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 50
+            "fidelity": 40,
+            "antiporn": 80,
+            "isolation": 50,
+            "gender": 50,
+            "labor": 85,
+            "automation": 75,
+            "yanderism": 15,
+            "religion": 5
         }
     },
     {
         "name": "Neo-Conservatism",
         "stats": {
-            "econ": 20,
-            "dipl": 20,
-            "govt": 40,
-            "scty": 20
+            "fidelity": 60,
+            "antiporn": 30,
+            "isolation": 25,
+            "gender": 45,
+            "labor": 50,
+            "automation": 50,
+            "yanderism": 55,
+            "religion": 75
+
         }
     },
     {
         "name": "Fundamentalism",
         "stats": {
-            "econ": 20,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 5
+            "fidelity": 80,
+            "antiporn": 100,
+            "isolation": 80,
+            "gender": 0,
+            "labor": 75,
+            "automation": 25,
+            "yanderism": 75,
+            "religion": 100
         }
     },
     {
         "name": "Libertarian Capitalism",
         "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 80,
-            "scty": 60
-        }
-    },
-    {
-        "name": "Market Anarchism",
-        "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Objectivism",
-        "stats": {
-            "econ": 10,
-            "dipl": 50,
-            "govt": 90,
-            "scty": 40
-        }
-    },
-    {
-        "name": "Totalitarian Capitalism",
-        "stats": {
-            "econ": 0,
-            "dipl": 30,
-            "govt": 0,
-            "scty": 50
-        }
-    },
-    {
-        "name": "Ultra-Capitalism",
-        "stats": {
-            "econ": 0,
-            "dipl": 40,
-            "govt": 50,
-            "scty": 50
+            "fidelity": 40,
+            "antiporn": 20,
+            "isolation": 50,
+            "gender": 33,
+            "labor": 33,
+            "automation": 66,
+            "yanderism": 33,
+            "religion": 50
         }
     },
     {
         "name": "Anarcho-Capitalism",
         "stats": {
-            "econ": 0,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
+            "fidelity": 20,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 50,
+            "labor": 0,
+            "automation": 50,
+            "yanderism": 50,
+            "religion": 33
+        }
+    },
+    {
+        "name": "Apolitical Yanderism",
+        "stats": {
+            "fidelity": 100,
+            "antiporn": 60,
+            "isolation": 75,
+            "gender": 50,
+            "labor": 25,
+            "automation": 75,
+            "yanderism": 75,
+            "religion": 50
+        }
+    },
+    {
+        "name": "Yanderism",
+        "stats": {
+            "fidelity": 100,
+            "antiporn": 100,
+            "isolation": 75,
+            "gender": 50,
+            "labor": 50,
+            "automation": 75,
+            "yanderism": 100,
+            "religion": 50
+        }
+    },
+    {
+        "name": "Nerism",
+        "stats": {
+            "fidelity": 80,
+            "antiporn": 40,
+            "isolation": 100,
+            "gender": 100,
+            "labor": 25,
+            "automation": 75,
+            "yanderism": 100,
+            "religion": 0
+        }
+    },
+    {
+        "name": "Yandere Technocracy",
+        "stats": {
+            "fidelity": 100,
+            "antiporn": 100,
+            "isolation": 75,
+            "gender": 50,
+            "labor": 100,
+            "automation": 100,
+            "yanderism": 100,
+            "religion": 50
+        }
+    },
+    {
+        "name": "Yandere Fascism",
+        "stats": {
+            "fidelity": 100,
+            "antiporn": 100,
+            "isolation": 75,
+            "gender": 50,
+            "labor": 75,
+            "automation": 85,
+            "yanderism": 100,
+            "religion": 50
+        }
+    },
+    {
+        "name": "Biblical Yanderism",
+        "stats": {
+            "fidelity": 100,
+            "antiporn": 100,
+            "isolation": 75,
+            "gender": 50,
+            "labor": 50,
+            "automation": 75,
+            "yanderism": 100,
+            "religion": 100
+        }
+    },
+    {
+        "name": "Anarcha-Feminism",
+        "stats": {
+            "fidelity": 20,
+            "antiporn": 0,
+            "isolation": 50,
+            "gender": 100,
+            "labor": 0,
+            "automation": 75,
+            "yanderism": 50,
+            "religion": 50
+        }
+    },
+    {
+        "name": "Incel",
+        "stats": {
+            "fidelity": 10,
+            "antiporn": 0,
+            "isolation": 25,
+            "gender": 0,
+            "labor": 0,
+            "automation": 75,
+            "yanderism": 0,
+            "religion": 50
+        }
+    },
+    {
+        "name": "Cuckism",
+        "stats": {
+            "fidelity": 0,
+            "antiporn": 20,
+            "isolation": 0,
+            "gender": 50,
+            "labor": 75,
+            "automation": 75,
+            "yanderism": 0,
+            "religion": 50
+        }
+    },
+    {
+        "name": "Pink Capitalism",
+        "stats": {
+            "fidelity": 20,
+            "antiporn": 20,
+            "isolation": 0,
+            "gender": 75,
+            "labor": 0,
+            "automation": 75,
+            "yanderism": 25,
+            "religion": 25
+        }
+    },
+    {
+        "name": "Anarcho Primitivism",
+        "stats": {
+            "fidelity": 20,
+            "antiporn": 0,
+            "isolation": 50,
+            "gender": 25,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 50,
+            "religion": 50
+        }
+    },
+    {
+        "name": "Neo-Luddism",
+        "stats": {
+            "fidelity": 50,
+            "antiporn": 80,
+            "isolation": 50,
+            "gender": 50,
+            "labor": 50,
+            "automation": 0,
+            "yanderism": 25,
+            "religion": 50
+        }
+    },
+    {
+        "name": "Radical Feminism",
+        "stats": {
+            "fidelity": 20,
+            "antiporn": 80,
+            "isolation": 0,
+            "gender": 100,
+            "labor": 0,
+            "automation": 75,
+            "yanderism": 0,
+            "religion": 25
+        }
+    },
+    {
+        "name": "Liberal Feminism",
+        "stats": {
+            "fidelity": 20,
+            "antiporn": 20,
+            "isolation": 0,
+            "gender": 85,
+            "labor": 0,
+            "automation": 75,
+            "yanderism": 0,
+            "religion": 25
         }
     }
 ];

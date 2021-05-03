@@ -5,13 +5,6 @@
 <link rel="icon" type="x-icon" href="icon.png">
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-6511426299019766",
-    enable_page_level_ads: true
-  });
-</script>
 </head>
 <body>
 <script type="application/javascript"
@@ -29,38 +22,30 @@
 <button class="small_button" onclick="prev_question()" id="back_button">Back</button>
 <button class="small_button_off" id="back_button_off">Back</button><br>
 
-<!-- Website visit statistics - no personal information is collected! -->
-<script type="text/javascript">
-var sc_project=11325211;
-var sc_invisible=1;
-var sc_security="fd9f0659";
-var scJsHost = (("https:" == document.location.protocol) ?
-"https://secure." : "http://www.");
-document.write("<sc"+"ript type='text/javascript' src='" +
-scJsHost+
-"statcounter.com/counter/counter.js'></"+"script>");
-</script>
-<noscript><div class="statcounter"><a title="web stats"
-href="http://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="//c.statcounter.com/11325211/0/fd9f0659/1/" alt="web
-stats"></a></div></noscript>
-
 <!-- JavaScript for the test itself -->
 <script>
-    var max_econ, max_dipl, max_govt, max_scty; // Max possible scores
-    max_econ = max_dipl = max_govt = max_scty = 0;
-    let econ_array = new Array(questions.length);
-    let dipl_array = new Array(questions.length);
-    let govt_array = new Array(questions.length);
-    let scty_array = new Array(questions.length);
+    var max_fidelity, max_antiporn, max_isolation, max_gender, max_labor, max_automation, max_yanderism, max_religion; // Max possible scores
+    max_fidelity = max_antiporn = max_isolation = max_gender = max_labor = max_automation = max_yanderism = max_religion = 0;
+    let fidelity_array = new Array(questions.length);
+    let antiporn_array = new Array(questions.length);
+    let isolation_array = new Array(questions.length);
+    let gender_array = new Array(questions.length);
+    let labor_array = new Array(questions.length);
+    let automation_array = new Array(questions.length);
+    let yanderism_array = new Array(questions.length);
+    let religion_array = new Array(questions.length);
+
     var qn = 0; // Question number
     init_question();
     for (var i = 0; i < questions.length; i++) {
-        max_econ += Math.abs(questions[i].effect.econ)
-        max_dipl += Math.abs(questions[i].effect.dipl)
-        max_govt += Math.abs(questions[i].effect.govt)
-        max_scty += Math.abs(questions[i].effect.scty)
+        max_fidelity += Math.abs(questions[i].effect.fidelity)
+        max_antiporn += Math.abs(questions[i].effect.antiporn)
+        max_isolation += Math.abs(questions[i].effect.isolation)
+        max_gender += Math.abs(questions[i].effect.gender)
+        max_labor += Math.abs(questions[i].effect.labor)
+        max_automation += Math.abs(questions[i].effect.automation)
+        max_yanderism += Math.abs(questions[i].effect.yanderism)
+        max_religion += Math.abs(questions[i].effect.religion)
     }
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
@@ -76,10 +61,14 @@ stats"></a></div></noscript>
     }
 
     function next_question(mult) {
-        econ_array[qn] = mult*questions[qn].effect.econ
-        dipl_array[qn] = mult*questions[qn].effect.dipl
-        govt_array[qn] = mult*questions[qn].effect.govt
-        scty_array[qn] = mult*questions[qn].effect.scty
+        fidelity_array[qn] = mult*questions[qn].effect.fidelity
+        antiporn_array[qn] = mult*questions[qn].effect.antiporn
+        isolation_array[qn] = mult*questions[qn].effect.isolation
+        gender_array[qn] = mult*questions[qn].effect.gender
+        labor_array[qn] = mult*questions[qn].effect.labor
+        automation_array[qn] = mult*questions[qn].effect.automation
+        yanderism_array[qn] = mult*questions[qn].effect.yanderism
+        religion_array[qn] = mult*questions[qn].effect.religion
         qn++;
         if (qn < questions.length) {
             init_question();
@@ -101,15 +90,23 @@ stats"></a></div></noscript>
     }
 
     function results() {
-        let final_econ = econ_array.reduce((a, b) => a + b, 0)
-        let final_dipl = dipl_array.reduce((a, b) => a + b, 0)
-        let final_govt = govt_array.reduce((a, b) => a + b, 0)
-        let final_scty = scty_array.reduce((a, b) => a + b, 0)
+        let final_fidelity = fidelity_array.reduce((a, b) => a + b, 0)
+        let final_antiporn = antiporn_array.reduce((a, b) => a + b, 0)
+        let final_isolation = isolation_array.reduce((a, b) => a + b, 0)
+        let final_gender = gender_array.reduce((a, b) => a + b, 0)
+        let final_labor = labor_array.reduce((a, b) => a + b, 0)
+        let final_automation = automation_array.reduce((a, b) => a + b, 0)
+        let final_yanderism = yanderism_array.reduce((a, b) => a + b, 0)
+        let final_religion = religion_array.reduce((a, b) => a + b, 0)
         location.href = `results.html`
-            + `?e=${calc_score(final_econ,max_econ)}`
-            + `&d=${calc_score(final_dipl,max_dipl)}`
-            + `&g=${calc_score(final_govt,max_govt)}`
-            + `&s=${calc_score(final_scty,max_scty)}`
+            + `?e=${calc_score(final_fidelity,max_fidelity)}`
+            + `&d=${calc_score(final_antiporn,max_antiporn)}`
+            + `&g=${calc_score(final_isolation,max_isolation)}`
+            + `&s=${calc_score(final_gender,max_gender)}`
+            + `&t=${calc_score(final_labor, max_labor)}`
+            + `&u=${calc_score(final_automation, max_automation)}`
+            + `&v=${calc_score(final_yanderism, max_yanderism)}`
+            + `&w=${calc_score(final_religion, max_religion)}`
     }
 </script>
 </body>

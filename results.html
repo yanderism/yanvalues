@@ -5,70 +5,85 @@
 <link rel="icon" type="x-icon" href="icon.png">
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
+
 <script>
   version = "Test Edition #1" //Remember to update this before making changes to the test itself!
 </script>
 </head>
+
 <script type="application/javascript"
         src="ideologies.js">
 </script>
 
 <body>
-<h1>8values</h1>
+<h1>Yanvalues</h1>
 <hr>
 
 <h1>Results</h1>
 
-<h2>Economic Axis: <span class="weight-300" id="economic-label"></span></h2>
+<h2>Monogamy Axis: <span class="weight-300" id="fidelity-label"></span></h2>
 <div class="axis">
-    <img id="img-equality" src="value_images/equality.svg" height="128pt"/>
-    <div class="bar equality" id="bar-equality"><div class="text-wrapper" id="equality"></div></div>
-    <div class="bar wealth" id="bar-wealth"><div class="text-wrapper" id="wealth"></div></div>
-    <img id="img-wealth" src="value_images/wealth.svg" height="128pt"/>
+    <img id="img-fidelity" src="value_images/fidelity.svg" height="128pt"/>
+    <div class="bar fidelity" id="bar-fidelity"><div class="text-wrapper" id="fidelity"></div></div>
+    <div class="bar nonmonogamy" id="bar-nonmonogamy"><div class="text-wrapper" id="nonmonogamy"></div></div>
+    <img id="img-nonmonogamy" src="value_images/nonmonogamy.svg" height="128pt"/>
 </div>
-<h2>Diplomatic Axis: <span class="weight-300" id="diplomatic-label"></span></h2>
+<h2>Pornography Axis: <span class="weight-300" id="antiporn-label"></span></h2>
 <div class="axis">
-    <img id="img-might" src="value_images/might.svg" height="128pt"/>
-    <div class="bar might" id="bar-might"><div class="text-wrapper" id="might"></div></div>
-    <div class="bar peace" id="bar-peace"><div class="text-wrapper" id="peace"></div></div>
-    <img id="img-peace" src="value_images/peace.svg" height="128pt"/>
+    <img id="img-pornography" src="value_images/pornography.svg" height="128pt"/>
+    <div class="bar pornography" id="bar-pornography"><div class="text-wrapper" id="pornography"></div></div>
+    <div class="bar antiporn" id="bar-antiporn"><div class="text-wrapper" id="antiporn"></div></div>
+    <img id="img-antiporn" src="value_images/antiporn.svg" height="128pt"/>
 </div>
-<h2>Civil Axis: <span class="weight-300" id="state-label"></span></h2>
+<h2>Isolation Axis: <span class="weight-300" id="isolation-label"></span></h2>
 <div class="axis">
-    <img id="img-liberty" src="value_images/liberty.svg" height="128pt"/>
-    <div class="bar liberty" id="bar-liberty"><div class="text-wrapper" id="liberty"></div></div>
-    <div class="bar authority" id="bar-authority"><div class="text-wrapper" id="authority"></div></div>
-    <img id="img-authority" src="value_images/authority.svg" height="128pt"/>
+    <img id="img-isolation" src="value_images/isolation.svg" height="128pt"/>
+    <div class="bar isolation" id="bar-isolation"><div class="text-wrapper" id="isolation"></div></div>
+    <div class="bar friendship" id="bar-friendship"><div class="text-wrapper" id="friendship"></div></div>
+    <img id="img-friendship" src="value_images/friendship.svg" height="128pt"/>
 </div>
-<h2>Societal Axis: <span class="weight-300" id="society-label"></span></h2>
+<h2>Gender Axis: <span class="weight-300" id="gender-label"></span></h2>
 <div class="axis">
-    <img id="img-tradition" src="value_images/tradition.svg" height="128pt"/>
-    <div class="bar tradition" id="bar-tradition"><div class="text-wrapper" id="tradition"></div></div>
-    <div class="bar progress" id="bar-progress"><div class="text-wrapper" id="progress"></div></div>
-    <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
+    <img id="img-patriarchy" src="value_images/patriarchy.svg" height="128pt"/>
+    <div class="bar patriarchy" id="bar-patriarchy"><div class="text-wrapper" id="patriarchy"></div></div>
+    <div class="bar gender" id="bar-gender"><div class="text-wrapper" id="gender"></div></div>
+    <img id="img-gender" src="value_images/gender.svg" height="128pt"/>
 </div>
+<h2>Labor Axis: <span class="weight-300" id="labor-label"></span></h2>
+<div class="axis">
+    <img id="img-individualism" src="value_images/individualism.svg" height="128pt"/>
+    <div class="bar individualism" id="bar-individualism"><div class="text-wrapper" id="individualism"></div></div>
+    <div class="bar labor" id="bar-labor"><div class="text-wrapper" id="labor"></div></div>
+    <img id="img-labor" src="value_images/labor.svg" height="128pt"/>
+</div>
+<h2>Automation Axis: <span class="weight-300" id="automation-label"></span></h2>
+<div class="axis">
+    <img id="img-primitivism" src="value_images/primitivism.svg" height="128pt"/>
+    <div class="bar primitivism" id="bar-primitivism"><div class="text-wrapper" id="primitivism"></div></div>
+    <div class="bar automation" id="bar-automation"><div class="text-wrapper" id="automation"></div></div>
+    <img id="img-automation" src="value_images/automation.svg" height="128pt"/>
+</div>
+<h2>Yanderism Axis: <span class="weight-300" id="yanderism-label"></span></h2>
+<div class="axis">
+    <img id="img-antiyanderism" src="value_images/antiyanderism.svg" height="128pt"/>
+    <div class="bar antiyanderism" id="bar-antiyanderism"><div class="text-wrapper" id="antiyanderism"></div></div>
+    <div class="bar yanderism" id="bar-yanderism"><div class="text-wrapper" id="yanderism"></div></div>
+    <img id="img-yanderism" src="value_images/yanderism.svg" height="128pt"/>
+</div>
+<h2>Religion Axis: <span class="weight-300" id="religion-label"></span></h2>
+<div class="axis">
+    <img id="img-atheism" src="value_images/atheism.svg" height="128pt"/>
+    <div class="bar atheism" id="bar-atheism"><div class="text-wrapper" id="atheism"></div></div>
+    <div class="bar religion" id="bar-religion"><div class="text-wrapper" id="religion"></div></div>
+    <img id="img-religion" src="value_images/religion.svg" height="128pt"/>
+</div>
+
 <h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
 <p>Ideological matching is a work in progress, and is much less accurate than the values and axes.</p>
 <p>You can send these results by copying and pasting the URL at the top of the page or using the image below. Think your matched ideology was wrong? Want to help us calibrate the test? Send the results along with your political ideology to us at eightvalues@gmail.com, or send us any comments, questions, or criticism. </p>
 <hr/>
 <img src="" id="banner">
 <button class="button" onclick="location.href='index.html';">Back</button> <br>
-<!-- Website visit statistics - no personal information is collected! -->
-<script type="text/javascript">
-var sc_project=11325211;
-var sc_invisible=1;
-var sc_security="fd9f0659";
-var scJsHost = (("https:" == document.location.protocol) ?
-"https://secure." : "http://www.");
-document.write("<sc"+"ript type='text/javascript' src='" +
-scJsHost+
-"statcounter.com/counter/counter.js'></"+"script>");
-</script>
-<noscript><div class="statcounter"><a title="web stats"
-href="http://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="//c.statcounter.com/11325211/0/fd9f0659/1/" alt="web
-stats"></a></div></noscript>
 <script>
     function getQueryVariable(variable)
     {
@@ -91,10 +106,14 @@ stats"></a></div></noscript>
         }
     }
 
-    econArray = ["Communist","Socialist","Social","Centrist","Market","Capitalist","Laissez-Faire"]
-    diplArray = ["Cosmopolitan","Internationalist","Peaceful","Balanced","Patriotic","Nationalist","Chauvinist"]
-    govtArray = ["Anarchist","Libertarian","Liberal","Moderate","Statist","Authoritarian","Totalitarian"]
-    sctyArray = ["Revolutionary","Very Progressive","Progressive","Neutral","Traditional","Very Traditional","Reactionary"]
+    fidelityArray = ["Love Illegal","Polygamy","Monogamish Society","Paper Monogamy","Enforced Monogamy","Strict Monogamy","Permanent Mutual Ownership"]
+    antipornArray = ["Actual Pedophile","Supports sex workers","Liberal attitude towards porn","Highly regulated porn","No porn in relationships","Ban all pornography","Execute Pornographers"]
+    isolationArray = ["Isolation Illegal","\"Bros before hoes\"","Balanced Lifestyle","Moderate","Partner has a say in friends","Romantic Monopolization","Romantic Isolation"]
+    genderArray = ["Patriarchy Hell","Misogyny","Mildly Patriarchal","Gender Equality","Feminist","Radically Feminist","Femdom Hell"]
+    laborArray = ["Rabid Egoism", "Individualism", "Couple-centric", "Nuclear Family", "Team mentality", "Nationalist", "Collectivist"]
+    automationArray = ["Primitivism", "Luddism", "AI Regulation", "Employment-centric policy", "Industrialization", "Automation", "Total Automation"]
+    yanderismArray = ["Eradication", "Pathologization", "Intolerance", "Tolerance", "Acceptance", "Yandere Supremacy", "Institutionalized Yanderism"]
+    religionArray = ["Antitheism / State Partner Worship", "Reddit Atheism", "Antichristianity", "Religious Freedom", "Religous Culture", "Religious Law", "Theocracy"]
 
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
@@ -108,37 +127,63 @@ stats"></a></div></noscript>
         	{return ""}
     }
 
-    equality  = getQueryVariable("e")
-    peace     = getQueryVariable("d")
-    liberty   = getQueryVariable("g")
-    progress  = getQueryVariable("s")
-    wealth    = (100 - equality).toFixed(1)
-    might     = (100 - peace   ).toFixed(1)
-    authority = (100 - liberty ).toFixed(1)
-    tradition = (100 - progress).toFixed(1)
+    fidelity  = getQueryVariable("e")
+    antipornography     = getQueryVariable("d")
+    isolation   = getQueryVariable("g")
+    gender  = getQueryVariable("s")
+    labor = getQueryVariable("t")
+    automation = getQueryVariable("u")
+    yanderism = getQueryVariable("v")
+    religion = getQueryVariable("w")
 
-    setBarValue("equality", equality)
-    setBarValue("wealth", wealth)
-    setBarValue("peace", peace)
-    setBarValue("might", might)
-    setBarValue("liberty", liberty)
-    setBarValue("authority", authority)
-    setBarValue("progress", progress)
-    setBarValue("tradition", tradition)
+    nonmonogamy    = (100 - fidelity).toFixed(1)
+    pornography     = (100 - antipornography   ).toFixed(1)
+    friendship = (100 - isolation ).toFixed(1)
+    patriarchy = (100 - gender).toFixed(1)
+    antiyanderism = (100 - yanderism).toFixed(1)
+    individualism = (100 - labor).toFixed(1)
+    primitivism = (100 - automation).toFixed(1)
+    atheism = (100 - religion).toFixed(1)
 
-    document.getElementById("economic-label").innerHTML = setLabel(equality, econArray)
-    document.getElementById("diplomatic-label").innerHTML = setLabel(peace, diplArray)
-    document.getElementById("state-label").innerHTML = setLabel(liberty, govtArray)
-    document.getElementById("society-label").innerHTML = setLabel(progress, sctyArray)
+    setBarValue("fidelity", fidelity)
+    setBarValue("nonmonogamy", nonmonogamy)
+    setBarValue("antipornography", antipornography)
+    setBarValue("pornography", pornography)
+    setBarValue("isolation", isolation)
+    setBarValue("friendship", friendship)
+    setBarValue("gender", gender)
+    setBarValue("patriarchy", patriarchy)
+
+    setBarValue("antiyanderism", antiyanderism)
+    setBarValue("yanderism", yanderism)
+    setBarValue("individualism", individualism)
+    setBarValue("labor", labor)
+    setBarValue("automation", automation)
+    setBarValue("primitivism", primitivism)
+    setBarValue("atheism", atheism)
+    setBarValue("religion", religion)
+
+    document.getElementById("fidelity-label").innerHTML = setLabel(fidelity, fidelityArray)
+    document.getElementById("antiporn-label").innerHTML = setLabel(antipornography, antipornArray)
+    document.getElementById("isolation-label").innerHTML = setLabel(isolation, isolationArray)
+    document.getElementById("gender-label").innerHTML = setLabel(gender, genderArray)
 
     ideology = ""
     ideodist = Infinity
     for (var i = 0; i < ideologies.length; i++) {
         dist = 0
-        dist += Math.pow(Math.abs(ideologies[i].stats.econ - equality), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.govt - liberty), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.dipl - peace), 1.73856063)
-        dist += Math.pow(Math.abs(ideologies[i].stats.scty - progress), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[i].stats.fidelity - fidelity), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.isolation - isolation), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.antiporn - antipornography), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[i].stats.gender - gender), 1.73856063)
+
+        // this algo isn't documented, so I made my best guess.
+        dist += Math.pow(Math.abs(ideologies[i].stats.labor - labor), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.automation - automation), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.yanderism - yanderism), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[i].stats.religion - religion), 1.73856063)
+
+
         if (dist < ideodist) {
             ideology = ideologies[i].name
             ideodist = dist
@@ -158,26 +203,44 @@ stats"></a></div></noscript>
         var c = document.createElement("canvas")
         var ctx = c.getContext("2d")
         c.width = 800;
-        c.height = 650;
+        c.height = 1140;
         ctx.fillStyle = "#EEEEEE"
         ctx.fillRect(0,0,800,650);
 
-        img = document.getElementById("img-equality")
+        img = document.getElementById("img-fidelity")
         ctx.drawImage(img, 20, 170, 100, 100);
-        img = document.getElementById("img-wealth")
+        img = document.getElementById("img-nonmonogamy")
         ctx.drawImage(img, 680, 170, 100, 100)
-        img = document.getElementById("img-might")
+        img = document.getElementById("img-pornography")
         ctx.drawImage(img, 20, 290, 100, 100)
-        img = document.getElementById("img-peace")
+        img = document.getElementById("img-antipornography")
         ctx.drawImage(img, 680, 290, 100, 100)
-        img = document.getElementById("img-liberty")
+        img = document.getElementById("img-isolation")
         ctx.drawImage(img, 20, 410, 100, 100)
-        img = document.getElementById("img-authority")
+        img = document.getElementById("img-friendship")
         ctx.drawImage(img, 680, 410, 100, 100)
-        img = document.getElementById("img-tradition")
+        img = document.getElementById("img-patriarchy")
         ctx.drawImage(img, 20, 530, 100, 100)
-        img = document.getElementById("img-progress")
+        img = document.getElementById("img-gender")
         ctx.drawImage(img, 680, 530, 100, 100)
+
+        img = document.getElementById("img-labor")
+        ctx.drawImage(img, 20, 650, 100, 100);
+        img = document.getElementById("img-individualism")
+        ctx.drawImage(img, 680, 650, 100, 100)
+        img = document.getElementById("img-automation")
+        ctx.drawImage(img, 20, 770, 100, 100)
+        img = document.getElementById("img-primitivism")
+        ctx.drawImage(img, 680, 770, 100, 100)
+        img = document.getElementById("img-antiyanderism")
+        ctx.drawImage(img, 20, 890, 100, 100)
+        img = document.getElementById("img-yanderism")
+        ctx.drawImage(img, 680, 890, 100, 100)
+        img = document.getElementById("img-atheism")
+        ctx.drawImage(img, 20, 1010, 100, 100)
+        img = document.getElementById("img-religion")
+        ctx.drawImage(img, 680, 1010, 100, 100)
+
 
         ctx.fillStyle="#222222"
         ctx.fillRect(120, 180, 560, 80)
@@ -185,21 +248,43 @@ stats"></a></div></noscript>
         ctx.fillRect(120, 420, 560, 80)
         ctx.fillRect(120, 540, 560, 80)
         ctx.fillStyle="#f44336"
-        ctx.fillRect(120, 184, 5.6*equality-2, 72)
+        ctx.fillRect(120, 184, 5.6*fidelity-2, 72)
         ctx.fillStyle="#00897b"
-        ctx.fillRect(682-5.6*wealth, 184, 5.6*wealth-2, 72)
+        ctx.fillRect(682-5.6*nonmonogamy, 184, 5.6*nonmonogamy-2, 72)
         ctx.fillStyle="#ff9800"
-        ctx.fillRect(120, 304, 5.6*might-2, 72)
+        ctx.fillRect(120, 304, 5.6*pornography-2, 72)
         ctx.fillStyle="#03a9f4"
-        ctx.fillRect(682-5.6*peace, 304, 5.6*peace-2, 72)
+        ctx.fillRect(682-5.6*antipornography, 304, 5.6*antipornography-2, 72)
         ctx.fillStyle="#ffeb3b"
-        ctx.fillRect(120, 424, 5.6*liberty-2, 72)
+        ctx.fillRect(120, 424, 5.6*isolation-2, 72)
         ctx.fillStyle="#3f51b5"
-        ctx.fillRect(682-5.6*authority, 424, 5.6*authority-2, 72)
+        ctx.fillRect(682-5.6*friendship, 424, 5.6*friendship-2, 72)
         ctx.fillStyle="#8bc34a"
-        ctx.fillRect(120, 544, 5.6*tradition-2, 72)
+        ctx.fillRect(120, 544, 5.6*patriarchy-2, 72)
         ctx.fillStyle="#9c27b0"
-        ctx.fillRect(682-5.6*progress, 544, 5.6*progress-2, 72)
+        ctx.fillRect(682-5.6*gender, 544, 5.6*gender-2, 72)
+
+        ctx.fillRect(120, 660, 560, 80)
+        ctx.fillRect(120, 780, 560, 80)
+        ctx.fillRect(120, 900, 560, 80)
+        ctx.fillRect(120, 1020, 560, 80)
+        ctx.fillStyle="#f44336"
+        ctx.fillRect(120, 664, 5.6*fidelity-2, 72)
+        ctx.fillStyle="#00897b"
+        ctx.fillRect(682-5.6*nonmonogamy, 184, 5.6*nonmonogamy-2, 72)
+        ctx.fillStyle="#ff9800"
+        ctx.fillRect(120, 784, 5.6*pornography-2, 72)
+        ctx.fillStyle="#03a9f4"
+        ctx.fillRect(682-5.6*antipornography, 304, 5.6*antipornography-2, 72)
+        ctx.fillStyle="#ffeb3b"
+        ctx.fillRect(120, 904, 5.6*isolation-2, 72)
+        ctx.fillStyle="#3f51b5"
+        ctx.fillRect(682-5.6*friendship, 424, 5.6*friendship-2, 72)
+        ctx.fillStyle="#8bc34a"
+        ctx.fillRect(120, 1024, 5.6*patriarchy-2, 72)
+        ctx.fillStyle="#9c27b0"
+        ctx.fillRect(682-5.6*gender, 544, 5.6*gender-2, 72)
+
         ctx.fillStyle="#222222"
         ctx.font="700 80px Montserrat"
         ctx.textAlign="left"
@@ -208,24 +293,29 @@ stats"></a></div></noscript>
         ctx.fillText(ideology, 20, 140)
 
         ctx.textAlign="left"
-        if (equality  > 30) {ctx.fillText(equality + "%", 130, 237.5)}
-        if (might     > 30) {ctx.fillText(might + "%", 130, 357.5)}
-        if (liberty   > 30) {ctx.fillText(liberty + "%", 130, 477.5)}
-        if (tradition > 30) {ctx.fillText(tradition + "%", 130, 597.5)}
+        if (fidelity  > 30) {ctx.fillText(fidelity + "%", 130, 237.5)}
+        if (pornography     > 30) {ctx.fillText(pornography + "%", 130, 357.5)}
+        if (isolation   > 30) {ctx.fillText(isolation + "%", 130, 477.5)}
+        if (patriarchy > 30) {ctx.fillText(patriarchy + "%", 130, 597.5)}
         ctx.textAlign="right"
-        if (wealth    > 30) {ctx.fillText(wealth + "%", 670, 237.5)}
-        if (peace     > 30) {ctx.fillText(peace + "%", 670, 357.5)}
-        if (authority > 30) {ctx.fillText(authority + "%", 670, 477.5)}
-        if (progress  > 30) {ctx.fillText(progress + "%", 670, 597.5)}
+        if (nonmonogamy    > 30) {ctx.fillText(nonmonogamy + "%", 670, 237.5)}
+        if (antipornography     > 30) {ctx.fillText(antipornography + "%", 670, 357.5)}
+        if (friendship > 30) {ctx.fillText(friendship + "%", 670, 477.5)}
+        if (gender  > 30) {ctx.fillText(gender + "%", 670, 597.5)}
 
         ctx.font="300 30px Montserrat"
-        ctx.fillText("8values.github.io", 780, 60)
-		ctx.fillText(version, 780, 90)
+        ctx.fillText("yanderism.github.io/yanvalues", 780, 60)
+		    ctx.fillText(version, 780, 90)
         ctx.textAlign="center"
-        ctx.fillText("Economic Axis: " + document.getElementById("economic-label").innerHTML, 400, 175)
-        ctx.fillText("Diplomatic Axis: " + document.getElementById("diplomatic-label").innerHTML, 400, 295)
-        ctx.fillText("Civil Axis: " + document.getElementById("state-label").innerHTML, 400, 415)
-        ctx.fillText("Societal Axis: " + document.getElementById("society-label").innerHTML, 400, 535)
+        ctx.fillText("Fidelity Axis: " + document.getElementById("fidelity-label").innerHTML, 400, 175)
+        ctx.fillText("Antipornography Axis: " + document.getElementById("antiporn-label").innerHTML, 400, 295)
+        ctx.fillText("Isolation Axis: " + document.getElementById("isolation-label").innerHTML, 400, 415)
+        ctx.fillText("Gender Axis: " + document.getElementById("gender-label").innerHTML, 400, 535)
+
+        ctx.fillText("Labor Axis: " + document.getElementById("labor-label").innerHTML, 400, 175)
+        ctx.fillText("Automation Axis: " + document.getElementById("automation-label").innerHTML, 400, 295)
+        ctx.fillText("Yanderism Axis: " + document.getElementById("yanderism-label").innerHTML, 400, 415)
+        ctx.fillText("Religion Axis: " + document.getElementById("religion-label").innerHTML, 400, 535)
 
         document.getElementById("banner").src = c.toDataURL();
     }

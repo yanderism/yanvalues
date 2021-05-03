@@ -1,632 +1,1016 @@
 questions = [
     {
+        "question": "It is necessary for the government to intervene in relationships to prevent infidelity",
+        "effect": {
+            "fidelity": 10,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 5,
+            "religion": 0
+        }
+    },
+    {
         "question": "Oppression by corporations is more of a concern than oppression by governments.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": -5,
-            "scty": 0
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 10,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "It is necessary for the government to intervene in the economy to protect consumers.",
+        "question": "The sexual revolution was a good thing.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "fidelity": -10,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": -5,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": -5,
+            "religion": -5
         }
     },
     {
-        "question": "The freer the markets, the freer the people.",
+        "question": "Yanderes are real, and not just an anime trope.",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 10,
+            "religion": 0
         }
     },
     {
-        "question": "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
+        "question": "Rather than for the betterment of mankind, I would rather work for the sake of myself, my partner, or my family.",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": -10,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "Publicly-funded research is more beneficial to the people than leaving it to the market.",
+        "question": "If everyone pitched together to make a universal work machine, we would all have more time to spend with our partners.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 10,
+            "automation": 10,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "Tariffs on international trade are important to encourage local production.",
+        "question": "It's only natural for a man to have wandering eyes.",
         "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
+            "fidelity": -5,
+            "antiporn": -5,
+            "isolation": 0,
+            "gender": -10,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": -5,
+            "religion": 0
         }
     },
     {
-        "question": "From each according to his ability, to each according to his needs.",
+        "question": "Society would be better off if we all were yanderes.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 10,
+            "religion": 0
         }
     },
     {
-        "question": "It would be best if social programs were abolished in favor of private charity.",
+        "question": "Your spouse should decide your friends, if you should have friends at all.",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 10,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "Taxes should be increased on the rich to provide for the poor.",
+        "question": "I don't want to put in effort for anyone but me, myself, and I.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": -10,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": -5
         }
     },
     {
-        "question": "Inheritance is a legitimate form of wealth.",
+        "question": "When it comes to relationships, there is a such thing as \"too much of a good thing\".",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -5
+            "fidelity": -5,
+            "antiporn": 0,
+            "isolation": -10,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": -5,
+            "religion": 0
         }
     },
     {
-        "question": "Basic utilities like roads and electricity should be publicly owned.",
+        "question": "If my partner worships a god, they're cheating on me.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 5,
+            "religion": -10
         }
     },
     {
-        "question": "Government intervention is a threat to the economy.",
+        "question": "I support the death penalty for adultery.",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "fidelity": 10,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 5,
+            "religion": 5
         }
     },
     {
-        "question": "Those with a greater ability to pay should receive better healthcare.",
+        "question": "Focusing your life on one person is not a healthy way to live.",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "fidelity": -5,
+            "antiporn": 0,
+            "isolation": -10,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": -10,
+            "religion": 0
         }
     },
     {
-        "question": "Quality education is a right of all people.",
+        "question": "Watching pornography, including hentai, while in a relationship is both cheating and betrayal.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 5
+            "fidelity": 5,
+            "antiporn": 10,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 5,
+            "religion": 0
         }
     },
     {
-        "question": "The means of production should belong to the workers who use them.",
+        "question": "Polyamory is just cheating with extra steps.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "fidelity": 10,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 10,
+            "religion": 0
         }
     },
     {
-        "question": "The United Nations should be abolished.",
+        "question": "Marriage is a contract of mutual ownership. Your partner should have more of a say in your life than you.",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -5,
-            "scty": 0
+            "fidelity": 10,
+            "antiporn": 0,
+            "isolation": 5,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 5,
+            "religion": 0
         }
     },
     {
-        "question": "Military action by our nation is often necessary to protect it.",
+        "question": "Child pornography should be illegal.",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": 0
+            "fidelity": 0,
+            "antiporn": 5,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "I support regional unions, such as the European Union.",
+        "question": "The world would be a better place if a women were put in charge.",
         "effect": {
-            "econ": -5,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 5
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 10,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "It is important to maintain our national sovereignty.",
+        "question": "Society would be better if we replaced politicians with scientists and engineers.",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -5,
-            "scty": 0
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 5,
+            "automation": 10,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "A united world government would be beneficial to mankind.",
+        "question": "I always help those in need, because that it could easily be me some day.",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 0
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 10,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "It is more important to retain peaceful relations than to further our strength.",
+        "question": "I support the use of mass surveillance to find, and apprehend, adulterers.",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 0
+            "fidelity": 10,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 10,
+            "yanderism": 10,
+            "religion": 0
         }
     },
     {
-        "question": "Wars do not need to be justified to other countries.",
+        "question": "A man violating a woman is worse than a woman violating a man.",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": 0
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 10,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "Military spending is a waste of money.",
+        "question": "Friendship often can lead to an affair.",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 0
+            "fidelity": 5,
+            "antiporn": 0,
+            "isolation": 10,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 5,
+            "religion": 0
         }
     },
     {
-        "question": "International aid is a waste of money.",
+        "question": "God is love, so religious spouses are more faithful, not less.",
         "effect": {
-            "econ": -5,
-            "dipl": -10,
-            "govt": 0,
-            "scty": 0
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 10
         }
     },
     {
-        "question": "My nation is great.",
+        "question": "Anyone who looks at a woman lustfully has already committed adultery with her in his heart.",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": 0,
-            "scty": 0
+            "fidelity": 5,
+            "antiporn": 10,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 5,
+            "religion": 5
         }
     },
     {
-        "question": "Research should be conducted on an international scale.",
+        "question": "The idea of a threesome is appealing to me.",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 10
+            "fidelity": -10,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": -5,
+            "religion": 0
         }
     },
     {
-        "question": "Governments should be accountable to the international community.",
+        "question": "Obsession and possession in love are not only healthy, but ideal in relationships.",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 5,
-            "scty": 0
+            "fidelity": 5,
+            "antiporn": 0,
+            "isolation": 5,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 10,
+            "religion": 0
         }
     },
     {
-        "question": "Even when protesting an authoritarian government, violence is not acceptable.",
+        "question": "Dominant women, and submissive men, are not only perfectly natural, but also common.",
         "effect": {
-            "econ": 0,
-            "dipl": 5,
-            "govt": -5,
-            "scty": 0
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 10,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "My religious values should be spread as much as possible.",
+        "question": "I don't have much passion working if it's just for myself.",
         "effect": {
-            "econ": 0,
-            "dipl": -5,
-            "govt": -10,
-            "scty": -10
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 10,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "Our nation's values should be spread as much as possible.",
+        "question": "I've spent money on OnlyFans.",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -5,
-            "scty": 0
+            "fidelity": 0,
+            "antiporn": -10,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "It is very important to maintain law and order.",
+        "question": "My partner doesn't own me.",
         "effect": {
-            "econ": 0,
-            "dipl": -5,
-            "govt": -10,
-            "scty": -5
+            "fidelity": -10,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": -5,
+            "religion": 0
         }
     },
     {
-        "question": "The general populace makes poor decisions.",
+        "question": "The future is (or should be) female.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 10,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "Physician-assisted suicide should be legal.",
+        "question": "People should be more open about their sexuality.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
+            "fidelity": 0,
+            "antiporn": -5,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "The sacrifice of some civil liberties is necessary to protect us from acts of terrorism.",
+        "question": "Monogamy is a harmful social construct, backed by jealousy and insecurity.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
+            "fidelity": -10,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "Government surveillance is necessary in the modern world.",
+        "question": "A woman's place is in the kitchen.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": -10,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "The very existence of the state is a threat to our liberty.",
+        "question": "Adultery laws only exist to oppress women, so it is our civic duty to repeal them.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 10,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "Regardless of political opinions, it is important to side with your country.",
+        "question": "I've called an authoritarian ideology \"based\" more than once.",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": -5
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 10,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "All authority should be questioned.",
+        "question": "Divorce is frequently a tool of abuse.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 5
+            "fidelity": 10,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 5,
+            "religion": 0
         }
     },
     {
-        "question": "A hierarchical state is best.",
+        "question": "Tsunderes are better than yanderes.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": -10,
+            "religion": 0
         }
     },
     {
-        "question": "It is important that the government follows the majority opinion, even if it is wrong.",
+        "question": "I've broken up with people because they were too clingy.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
+            "fidelity": -10,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "The stronger the leadership, the better.",
+        "question": "Having friends with no connection to your significant other is necessary in a healthy relationship.",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": 0
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": -10,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "Democracy is more than a decision-making process.",
+        "question": "I'd say NTR is cancer, but even cancers can sometimes be benign.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
+            "fidelity": 10,
+            "antiporn": 10,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "Environmental regulations are essential.",
+        "question": "Anime tropes should have no place in government.",
         "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": -10,
+            "religion": 0
+        }
+    },
+    {
+        "question": "I would install a tracking device on my phone if my partner asked me to.",
+        "effect": {
+            "fidelity": 10,
+            "antiporn": 0,
+            "isolation": 5,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 10,
+            "religion": 0
+        }
+    },
+    {
+        "question": "Borderline, Narcissistic, Antisocial, and Histrionic Personality Disorders are \"Evil Genes\"; if we eradicated these disorders, society could function without the rule of law.",
+        "effect": {
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": -10,
+            "religion": 0
+        }
+    },
+    {
+        "question": "If my partner murdered someone, I may disagree with their decision, but I would still help them burn the body.",
+        "effect": {
+            "fidelity": 5,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 10,
+            "religion": 0
+        }
+    },
+    {
+        "question": "The entire concept of \"polyfidelity\" is little more than an excuse to say polyamory isn't cheating.",
+        "effect": {
+            "fidelity": 10,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
+        }
+    },
+    {
+        "question": "It's horrifying living in a world where killing a cheater is deemed less moral than killing an ostrich.",
+        "effect": {
+            "fidelity": 10,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
+        }
+    },
+    {
+        "question": "Yuka Takaoka did nothing wrong.",
+        "effect": {
+            "fidelity": 5,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 10,
+            "religion": 0
         }
     },
     {
         "question": "A better world will come from automation, science, and technology.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 10,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
         "question": "Children should be educated in religious or traditional values.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -5,
-            "scty": -10
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 10
         }
     },
     {
-        "question": "Traditions are of no value on their own.",
+        "question": "I find myself supporting highly traditional marriage values, but with gender equality and LGBT rights.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "fidelity": 10,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
         "question": "Religion should play a role in government.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": -10
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 10
         }
     },
     {
-        "question": "Churches should be taxed the same way other institutions are taxed.",
+        "question": "The workers should own the means of production.",
         "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 10,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "Climate change is currently one of the greatest threats to our way of life.",
+        "question": "If my partner put a tracking device in my car, I would break up with them no questions asked.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "fidelity": -5,
+            "antiporn": 0,
+            "isolation": -5,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": -10,
+            "religion": 0
         }
     },
     {
-        "question": "It is important that we work as a united world to combat climate change.",
+        "question": "Fully Automated Luxury Gay Space Communism would be great, assuming other genders and sexualities would still be welcome.",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 10
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 10,
+            "automation": 10,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "Society was better many years ago than it is now.",
+        "question": "If an extramarital affair causes a suicide, the cheater should be charged with both adultery and manslaughter.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
+            "fidelity": 10,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "It is important that we maintain the traditions of our past.",
+        "question": "Between a person that enters and exits relationships for nothing more than sex and a person with 200 pictures of their partner tacked to their bedroom wall, the person with the pictures isn't the one who needs therapy.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 10,
+            "religion": 0
         }
     },
     {
-        "question": "It is important that we think in the long term, beyond our lifespans.",
+        "question": "Obsessive love is only considered a mental illness due to a hostile culture towards love and monogamy.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 10,
+            "religion": 0
         }
     },
     {
-        "question": "Reason is more important than maintaining our culture.",
+        "question": "The government should ban friendship.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 10,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "Drug use should be legalized or decriminalized.",
+        "question": "The whole of morality can be summed up in two words: Bodily autonomy.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 2
+            "fidelity": -10,
+            "antiporn": -10,
+            "isolation": -10,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": -5,
+            "religion": -10
         }
     },
     {
-        "question": "Same-sex marriage should be legal.",
+        "question": "Having a \"work spouse\", a celeb crush, or a fictional waifu isn't infidelity in a relationship, it's just being human.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 10
+            "fidelity": -10,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": -5,
+            "religion": 0
         }
     },
     {
-        "question": "No cultures are superior to others.",
+        "question": "If my country was attacked, I would drop what I was doing and fight for my country.",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 5,
-            "scty": 10
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 10,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "Sex outside marriage is immoral.",
+        "question": "Sex outside of marriage or committed relationships is immoral.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -5,
-            "scty": -10
+            "fidelity": 10,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "If we accept migrants at all, it is important that they assimilate into our culture.",
+        "question": "I submit to my partner in all that I do, because God tells me to do so.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -5,
-            "scty": -10
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 10
         }
     },
     {
-        "question": "Abortion should be prohibited in most or all cases.",
+        "question": "I coast by at the absolute bare minimum of effort unless it's for me and/or my beloved.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": -10
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0.
+            "gender": 0,
+            "labor": -10,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "Gun ownership should be prohibited for those without a valid reason.",
+        "question": "If human work can be replaced by robots, it should to the maximum possible extent.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 10,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
         "question": "I support single-payer, universal healthcare.",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 10,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
         "question": "Prostitution should be illegal.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": -10
+            "fidelity": 0,
+            "antiporn": 10,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 10,
+            "religion": 0
         }
     },
     {
-        "question": "Maintaining family values is essential.",
+        "question": "I have no say in the relationship of others, but they have no say in mine.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
+            "fidelity": -5,
+            "antiporn": -5,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": -5,
+            "religion": 0
         }
     },
     {
-        "question": "To chase progress at all costs is dangerous.",
+        "question": "Open relationships, if agreed upon by all sides, should be legal.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
+            "fidelity": -10,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "Genetic modification is a force for good, even on humans.",
+        "question": "Sex is a human right, and to deny it is tyranny.",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "fidelity": -10,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "We should open our borders to immigration.",
+        "question": "It's toxic and controlling to prevent your partner from watching porn.",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 0
+            "fidelity": -5,
+            "antiporn": -5,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "Governments should be as concerned about foreigners as they are about their own citizens.",
+        "question": "Marriages should expire every few years to encourage new relationsihps.",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 0
+            "fidelity": -10,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": -10,
+            "religion": 0
         }
     },
     {
-        "question": "All people - regardless of factors like culture or sexuality - should be treated equally.",
+        "question": "Taxation is theft.",
         "effect": {
-            "econ": 10,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 10
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": -10,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
         }
     },
     {
-        "question": "It is important that we further my group's goals above all others.",
+        "question": "Hentai is a good way to learn new things to do with your partner.",
         "effect": {
-            "econ": -10,
-            "dipl": -10,
-            "govt": -10,
-            "scty": -10
+            "fidelity": 0,
+            "antiporn": -10,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": 0,
+            "religion": 0
+        }
+    },
+    {
+        "question": "I took this test as a joke.",
+        "effect": {
+            "fidelity": 0,
+            "antiporn": 0,
+            "isolation": 0,
+            "gender": 0,
+            "labor": 0,
+            "automation": 0,
+            "yanderism": -10,
+            "religion": 0
         }
     }
 ];
