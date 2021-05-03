@@ -177,8 +177,8 @@ ideologies = [
             "gender": 25,
             "labor": 33,
             "automation": 50,
-            "yanderism", 50,
-            "religion", 75
+            "yanderism": 50,
+            "religion": 75
         }
     },
     {
