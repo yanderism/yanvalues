@@ -116,6 +116,8 @@
     religionArray = ["Antitheism / State Partner Worship", "Reddit Atheism", "Antichristianity", "Religious Freedom", "Religous Culture", "Religious Law", "Theocracy"]
 
     function setLabel(val,ary) {
+        // haha kludge go ker-klink
+        val = 100 - val;
         if (val > 100) { return "" } else
         if (val > 90) { return ary[0] } else
         if (val > 75) { return ary[1] } else
