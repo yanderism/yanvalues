@@ -862,7 +862,7 @@ questions = [
         "effect": {
             "fidelity": 0,
             "antiporn": 0,
-            "isolation": 0.
+            "isolation": 0,
             "gender": 0,
             "labor": -10,
             "automation": 0,
